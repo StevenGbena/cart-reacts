@@ -8,6 +8,7 @@ import NavbarComp from './component/NavbarComp';
 function App() {
   return (
     <div className="App">
+    
         <NavbarComp/>
       {/* <CounterUpPage/> */}
     </div>

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 import './CeoPages.css';
 import Footer from './Footer';
-// import CounterUpPage from './CounterUpPage';
+import CounterUpPage from './CounterUpPage';
 
 export default class CeoPage extends Component {
   render() {
@@ -22,13 +22,13 @@ export default class CeoPage extends Component {
       <p className='text'>For more than 27 years now, Conship has been pushing the standards across multiple industries including,<br/>
         but not limited to oil 
         and gas, construction, information technology, mining, just to name a few.</p>
-    <img src='feli.jpg' className='client' alt='pics'></img>
+       <img src='./images/feli.jpg' className='client' alt='pics'></img>
       <p className='move'>
       <h2>SITSO GBNEA</h2> 
       FOUNDER & CEO
       </p>
         <div className='the_ceo'>
-        <img src='int.jpg' className='ceo_img'  alt='pics'></img><br/>
+        <img src='./images/int.jpg' className='ceo_img'  alt='pics'></img><br/>
         </div>
    
         <br/>
@@ -38,7 +38,7 @@ export default class CeoPage extends Component {
     </div>
 
       <div className='about'>
-        <img src='ship.jpg' className='about_images'></img>
+        <img src='./images/ship.jpg' className='about_images'></img>
 
         <div className='float_text'>
           <h1>About us</h1>
@@ -71,7 +71,7 @@ export default class CeoPage extends Component {
         <FontAwesomeIcon icon={faCircleArrowRight} size='3x' className='arrow_customs' />
       </div>
 
-      {/* <CounterUpPage/> */}
+      <CounterUpPage/>
       
        
     
@@ -91,26 +91,22 @@ export default class CeoPage extends Component {
     <div className='our_afflaition'>
       <h1 className='h1'>Our Affliations</h1><br/><br/><br/>
     <marquee width="100%" direction="left" height="280px">
-      <img className='logo' src='gph.png'  alt='pics'></img>&nbsp;&nbsp;&nbsp; <img className='logo' src='porting.png'></img> &nbsp;&nbsp;&nbsp;&nbsp;<img className='logo' src='ceps.jpg'></img> <br/>
+      <img className='logo' src='./images/gph.png'  alt='pics'></img>&nbsp;&nbsp;&nbsp; <img className='logo' src='./images/porting.png'></img> &nbsp;&nbsp;&nbsp;&nbsp;<img className='logo' src='./images/ceps.jpg'></img> <br/>
    Ghana Shippers<br/> Authority    Ghana Ports& Harbour  Customs Execise & Preventice Service
 </marquee>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <div className='do_business'>
-      <h1 className='h1_business'>Do Business with Tramsco</h1>
-      <p className='business_text'>From freight to logistics,we are hapy to bring our<br/>
+
+
+     </div>
+    
+      <div className='business'>
+        <h1>Do business with Tramsco</h1>
+        <p className='business_text'>From freight to logistics,we are hapy to bring our<br/>
             expertise and experience to board with you.Feel free to reach out.We will be
             glad to have you as a partner.<br/><br/>
             <Button as={Link} to={'/contact'}className='get_in_touch' > Get in touch  </Button>
             </p>
-    </div>
-     </div>
-    
-    <br/>
-   
-    
+      </div>
     <Footer/>
     </>
      

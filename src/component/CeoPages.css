@@ -182,10 +182,10 @@
       float: right;
     }
   
-
-    .do_business{
-      width: 100%;
-      background-color: aqua;
+    .business{
+      position: relative;
+      top: 720px;
+      background-color: lightgreen;
     }
 
     .h1_business{

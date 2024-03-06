@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Button from 'react-bootstrap/esm/Button';
 import './Services.css';
+import Footer from './Footer';
 
 export default class Service extends Component {
   render() {
@@ -23,7 +24,7 @@ export default class Service extends Component {
          <br/>
          <br/>
          <div className='freight_image'>
-            <img className='freight_images' src='fowarder.jpg' alt='pic'></img>
+            <img className='freight_images' src='./images/fowarder.jpg' alt='pic'></img>
             <h1 className='h1_freight'>Freight Forwarding</h1>
             <p className='h1_text'>Arranging the import and export clearance of goods for our clients through agencies and ensuring<br/> that all the rule and regulations in the industry are 
                 being followed to streamline the clearance process.<br/><br/>
@@ -35,7 +36,7 @@ export default class Service extends Component {
         <br/>
         <br/>
         <div className='land_transport'>
-          <img className='container_image' src='container_t.jpg'></img>
+          <img className='container_image' src='./images/container_t.jpg'></img>
           <h1 className='h2_land'> Haulage Services</h1>
           <p className='h2_text'>Arranging the import and export clearance of goods for our clients through agencies<br/> and ensuring that
            all the rule and regulations in the industry are 
@@ -47,7 +48,7 @@ export default class Service extends Component {
         <br/>
         <br/>
         <div className='customs'>
-          <img className='customs_image' src='custom.jpg'></img>
+          <img className='customs_image' src='./images/custom.jpg'></img>
           <h1 className='h3_customs'>Custom Brokage</h1>
           <p className='h3_text'> Tramsco is licensed and have the expertise to quickly move your goods
              in compliance with<br/> Ghana customs and import regulations.
@@ -66,84 +67,7 @@ export default class Service extends Component {
             </div>
           <br/>
           <br/>
-              <div className='footer'>    
-        <div className='sb_footer section_padding'>
-         <div className='sb_footer-links'>
-            <div className='sb_footer-links_div'>
-             <h4>For Business</h4>
-             <a href='/employer'>
-                <p>Employer</p>
-             </a>
-             <a href='/healthplan'>
-                <p>Health Plan</p>
-             </a>
-             <a href='/individual'>
-                <p>Individual</p>
-             </a>
-            </div>
-            <div className='sb_footer-links_div'>
-                <h4>Resources</h4>
-                <a href='/resources'>
-                <p>Resource center</p>
-                </a>
-                <a href='/resources'>
-                <p>Testimonials</p>
-                </a>
-                <a href='/resources'>
-                <p>STV</p>
-                </a>
-            </div>
-            <div className='sb_footer-links_div'>
-                <h4>Partners</h4>
-                <a href='/employer'>
-                    <p>Tramsco </p>
-                </a>
-            </div>
-            <div className='sb_footer-links_div'>
-                <h4>Company</h4>
-                <a href='/about'>
-                    <p>About</p>
-                </a>
-                <a href='/press'>
-                    <p>Press</p>
-                </a>
-                <a href='/career'>
-                    <p>Career</p>
-                </a>
-                <a href='/contact'>
-                    <p>Contact</p>
-                </a>
-            </div>
-            <div className='sb_footer-links_div'>
-                <h4>Coming soon </h4>
-                {/* <div className='socialmedia'>
-                 <p><FontAwesomeIcon icon={faFacebook} /></p>   
-                <p><FontAwesomeIcon icon={faLinkedin} /></p>
-                <p><FontAwesomeIcon icon={faInstagram} /></p>
-                <p><FontAwesomeIcon icon={faXTwitter} /></p>
-                </div> */}
-            </div>
-         </div>
-        </div>
-
-        <hr></hr>
-
-        <div className='sb_footer-below'>
-         <div className='sb_footer-copyright'>
-            <p>
-                @{new Date().getFullYear()} SteveTech. All right reserved.
-            </p>
-
-         </div>
-         <div className='sb_footer-below-links'>
-            <a href='/terms'><div><p>Terms & Conditions</p></div></a>
-            <a href='/privacy'><div><p>Privacy</p></div></a>
-            <a href='/terms'><div><p>Security</p></div></a>
-            <a href='/terms'><div><p>Cookie Declaration</p></div></a>
-         </div>
-        </div>
-        </div>
-     
+            <Footer/>
      </>
     )
   }

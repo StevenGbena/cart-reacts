@@ -6,8 +6,8 @@
     .footer{
         background-color: #2d2d32;
         position: relative;
-        height: 70vh;
-        bottom:380px;
+        height: 100vh;
+        bottom:680px;
     }
     
     .sb_footer{
@@ -27,6 +27,8 @@
     }
     
     .sb_footer-links_div{
+        position: relative;
+       bottom:40px;
         width: 150px;
         margin: 1rem;
         display: flex;

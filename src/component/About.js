@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Abouts.css';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import Read from './Read';
 
 // import '@fortawesome/fontawesom-free/css/all.min.css';
 
@@ -13,7 +14,7 @@ export default class About extends Component {
     return (
         <>
         <div className='image_about'>
-        <img  className='about_image' src='tema.jpg' alt='about'></img>
+        <img  className='about_image' src='./images/tema.jpg' alt='about'></img>
         </div>
         <br/>
         <br/>
@@ -21,19 +22,9 @@ export default class About extends Component {
         <div className='about_text'>
             <div className='text_page'>
                 <h1>About Tramsco</h1>
-                <p  style={{
-                    WebkitLineClamp:10,
-                    WebkitBoxOrient:'vertical',
-                    overflow:'hidden',
-                    display: '-webkit-box'
-
-                }}>Consolidated Shipping Agencies Limited is an indigenous Ghanaian Logistics company<br/> established 
-                on 13th February 1996.Over the years since its establishment, Conship has been<br/> providing world-class services along the supply 
-                chain consisting of freight forwarding,<br/> customs clearance, haulage, vessel agency, 
-                husbandry, warehousing and container freight<br/> station operations at globally competitive standards.</p>
-                    <Button> Read more..</Button>
+                <Read/>
             </div>
-            <img className='abouts_image'src='gh.jpg' alt='about'></img>
+            <img className='abouts_image'src='./images/gh.jpg' alt='about'></img>
 
         </div>
 
@@ -76,7 +67,7 @@ export default class About extends Component {
             <h1>Meet The Team </h1>
             <div className='column'>
                 <div className='card'>
-                    <img className='meet_image' src='franklin.jpg' ></img>
+                    <img className='meet_image' src='./images/franklin.jpg' ></img>
                     <div className='container'>
                     
                     </div>
@@ -89,7 +80,7 @@ export default class About extends Component {
 
             <div className='column'>
                 <div className='card'>
-                <img className='meet_image' src='kwesi.jpg'></img>
+                <img className='meet_image' src='./images/kwesi.jpg'></img>
                 <div className='container'>
                 </div>
                 <h2>Bright Benahs</h2>
@@ -99,7 +90,7 @@ export default class About extends Component {
             </div>
             <div className='column'>
                 <div className='card'>
-                <img className='meet_image' src='kwesi.jpg'></img>
+                <img className='meet_image' src='./images/kwesi.jpg'></img>
                 <div className='container'>
                 
                 </div>
@@ -112,7 +103,7 @@ export default class About extends Component {
             <br/>
             <div className='columns'>
                 <div className='card'>
-                <img className='meet_image' src='feli.jpg'></img>
+                <img className='meet_image' src='./images/feli.jpg'></img>
                 <div className='container'>
                   
                 </div>
