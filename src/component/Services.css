@@ -1,0 +1,92 @@
+@media  screen and (width >= 900px){
+    .abt{
+        position: relative;
+        top:50px;
+        padding-left: 40px;
+    }
+
+
+    .freight_images{
+        float:left;
+        width:40%;
+        height:50vh;
+        padding-left: 40px;
+        box-shadow: 10px 10px 5px 12px lightgrey;
+    }
+
+    .h1_freight{
+        position: relative;
+        left:90px;
+        top:30px;
+    }
+
+    .h1_text{
+        position: relative;
+        left:50px;
+        top:30px;
+    }
+
+    .container_image{
+        position: relative;
+        left:150px;
+        width:40%;
+        height:50vh;
+        top:190px;
+        box-shadow: 10px 10px 5px 12px lightgrey;
+        
+    }
+
+    .h2_land{
+        position: relative;
+        bottom:50px;
+        padding-left:70px;
+    }
+
+    .h2_text{
+        position: relative;
+        bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .customs_image{
+        position: relative;
+        top:110px;
+        padding-left: 50px;
+        box-shadow: 10px 10px 5px 12px lightgrey;
+
+    }
+    .h3_customs{
+        position: relative;
+        left: 630px;
+        bottom:120px;
+    }
+    .h3_text{
+        position: relative;
+        left: 630px;
+        bottom:120px;
+    }
+
+    .h3_business{
+        padding-left: 30px;
+    }
+    
+    .h3_texts{
+        position: relative;
+        left: 460px;
+        bottom: 30px;
+    }
+    
+    .get_in_touch{
+        position: relative;
+        left: 660px;
+        bottom: 70px;
+    }
+    
+    .do_business{
+        width: 100%;
+        height: 30vh;
+        background-color: lightgreen;
+        position: relative;
+        top: 860px;
+    }
+}

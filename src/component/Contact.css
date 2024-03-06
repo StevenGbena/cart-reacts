@@ -1,0 +1,160 @@
+@media screen and (width >=900px) {
+    .h1_contact{
+        position: relative;
+        top:90px;
+        left: 70px;
+    }
+
+    .h1_text{
+        position: relative;
+        top:100px;
+        left: 40px;
+    }
+
+    .button{
+        position: relative;
+        width:100px;
+        height:30px;
+        border-radius: 50px;
+        background-color: blue;
+        left: 140px;
+    }
+
+    .container{
+        position: relative;
+        left:550px;
+    }
+
+    input{
+        width: 60%;
+        border-radius: 40px;
+        height: 5vh;
+    }
+
+    .inputs{
+        width: 100%;
+    }
+
+
+    .text_area{
+        width: 50%;
+        height:40vh;
+    }
+
+
+
+      .name{
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .email{
+        position: relative;
+        left:220px;
+        bottom: 33px;
+        width: 100%;
+        border-radius: 20px;
+
+      }
+      
+      .serv{
+        width: 40%;
+        border-radius: 20px;
+        height: 6vh;
+      }
+
+      .text_area{
+        position: relative;
+        width:300%;
+      top: 30px;
+      border-radius: 10px;
+      }
+
+      .button{
+        cursor: grab;
+        position: relative;
+        top:20px;
+      }
+
+      .map-responsive{
+        overflow: hidden;
+        padding-bottom:16.25%;
+        position: relative;
+        height: 70vh;
+        width: 40%;
+        bottom:540px;
+      }
+      
+      .map-responsive iframe{
+        left: 0;
+        top: 90px;
+        border: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+       
+      }
+}
+
+@media screen and (width <=480px) {
+    .textings{
+        position: relative;
+        top:150px;
+    }
+
+    .h1_contact{
+        /* position: relative; */
+        top:590px;
+        left: 70px;
+    }
+
+    .h1_text{
+        /* position: relative; */
+        top:100px;
+        left: 40px;
+    }
+
+    form{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        overflow-x: hidden;
+
+      }
+
+     .button{
+        position: relative;
+        width:100px;
+        height:30px;
+        border-radius: 50px;
+        background-color: pink;
+        left: 140px;
+     } 
+
+     .conatiner{
+        width: 100%;
+        overflow-x: hidden;
+     }
+
+ 
+     .map-responsive{
+        overflow: hidden;
+        padding-bottom:16.25%;
+        position: relative;
+        height: 40vh;
+      }
+      
+      .map-responsive iframe{
+        left: 0;
+        top: 0;
+        border: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+       
+      }
+}

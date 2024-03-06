@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+.logos{
+  border-radius: 70%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+@media screen and (max-width:480px) {
+  .image_about{
+    width: 100%;
+   height: 100vh;
+   overflow-x: hidden ;
+  }
+
+  .about_image{
+    width: 100%;
+    height:80vh;
+ 
+  }
+
+  .texting{
+  
+    text-align: center;
+  }
+
+  .read{
+    position: relative;
+    right: 130px;
+  }
+
+   /*Meet the team */
+  .team-pics{
+    width: 100%;
+    display: block;
+  }
+
+ /*Meet the team */
+.meet_image{
+  width: 100%;
+}
+
+/*FOr footer */
+.sb_footer-heading h1{
+  font-size:34px;
+  line-height:42px;
+}
+
+.sb_footer-links div{
+  margin: 1rem 0;
+}
+
+.sb_footer-btn p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sb_footer-below{
+  flex-direction: column;
+  justify-content: left;
+}
+
+.sb_footer-below-links p{
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+
+ /*Services Page */
+ .services_images{
+  background-image: url('../public/feli.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  background-color: aqua;
+}
+
+
+/* Freight image (Services)*/
+.freight_images{
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px lightgray inset;
+}
+
+.container_image{
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px lightgray inset;
+}
+
+.customs_image{
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px lightgray inset;
+}
+
+
+/* forms */
+/* .col-25, .col-75, input[type=submit]{
+  width: 100%;
+  margin-top: 0;
+  background-color: aqua;
+} */
+/* ceo small pic */
+.client{
+  width: 150px;
+  height:100px;
+  border-radius: 70px;
+
+}
+
+.ceo_image{
+  width: 100%;
+  height: 40vh;
+}
+
+
+.move{
+  /* position: relative; */
+  margin-left: 160px;
+  bottom: 70px;
+}
+
 }

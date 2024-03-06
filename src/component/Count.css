@@ -1,0 +1,101 @@
+
+@media screen and (width >= 900px){
+    .animate{
+        /* position: relative; */
+       bottom:330px;
+        border-width: 0;
+         width: 100%;
+     
+         background-color: whitesmoke;
+         height:15vmin;
+         font-size :8px;
+         color:black;
+         overflow-x: hidden;
+         overflow-y: hidden;
+         height:30vh;
+         padding-left: 70px;
+
+    }   
+    
+
+
+
+    .style{
+        color:lightgreen;
+        width:100%;
+    
+    }
+    
+    .style2{
+        color:lightgreen;
+        width:100%;
+        position: relative;
+        left: 430px;
+        bottom: 90px;
+    
+    }
+    
+    .style3{
+        color:lightgreen;
+        width:100%;
+        position: relative;
+        left: 830px;
+        bottom: 210px;
+    
+    }
+    
+    .shake{
+    color: black;
+    }
+
+    
+
+}
+
+
+
+
+@media screen and (width<=480px) {
+    .animate{
+   
+        border-width: 0;
+         width: 100%;
+         background-color: white;
+         height:35vmin;
+         font-size :8px;
+         color:black;
+         overflow-x: hidden;
+         overflow-y: hidden;
+         height:90vh;
+    }   
+    
+    .style{
+        color:lightgreen;
+        width:100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height:20vh;
+    }
+    
+    .style2{
+        color:lightgreen;
+        width:100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height:40vh;
+    }
+
+    .style3{
+        position: relative;
+        color:lightgreen;
+        width:100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height:20vh;
+        bottom:140px;
+    }
+
+    .shake{
+        color: black;
+        }
+}
