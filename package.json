@@ -1,5 +1,5 @@
 {
- "homepage": "http://StevenGbena.github.io/page",
+
   "private": true,
  
   "dependencies": {
@@ -58,8 +58,7 @@
  
    
   "start": "react-scripts start",
-  "predeploy": "npm run build",
-  "deploy":"gh-pages -d build",
+
    
   "build": "react-scripts build",
  
@@ -132,10 +131,10 @@
   "devDependencies": {
  
    
-  "@fortawesome/fontawesome-free": "^6.5.1",
+  "@fortawesome/fontawesome-free": "^6.5.1"
  
    
-  "gh-pages": "^6.1.1"
+
  
   }
 }
