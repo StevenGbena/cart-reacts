@@ -62,7 +62,7 @@ export default class About extends Component {
         <br/>
         <br/>
         <br/>        
-       
+            
         <div className='meet_team'>
             <h1>Meet The Team </h1>
             <div className='column'>

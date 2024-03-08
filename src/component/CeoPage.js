@@ -22,7 +22,7 @@ export default class CeoPage extends Component {
       <p className='text'>For more than 27 years now, Conship has been pushing the standards across multiple industries including,<br/>
         but not limited to oil 
         and gas, construction, information technology, mining, just to name a few.</p>
-       <img src='/images/feli.jpg' className='client' alt='pics'></img>
+       <img src='./images/feli.jpg' className='client' alt='pics'></img>
       <p className='move'>
       <h2>SITSO GBNEA</h2> 
       FOUNDER & CEO

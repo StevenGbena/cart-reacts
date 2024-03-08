@@ -1,6 +1,4 @@
 
-
-
 import Slider from "./Slider";
 const Effect = () => {
   const slides = [

@@ -4,6 +4,7 @@ import Effect from './Effect'
 
 
 
+
 export default class Home extends Component {
   render() {
     return (
