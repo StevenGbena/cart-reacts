@@ -61,15 +61,15 @@ export default class Footer extends Component {
         <div className='sb_footer-below'>
          <div className='sb_footer-copyright'>
             <p>
-                @{new Date().getFullYear()} SteveTech. All right reserved.
+            Ⓒ{new Date().getFullYear()} Tramsco Shipping Agencies. All right reserved.
             </p>
 
          </div>
          <div className='sb_footer-below-links'>
-            <a href='/terms'><div><p>Terms & Conditions</p></div></a>
-            <a href='/privacy'><div><p>Privacy</p></div></a>
-            <a href='/terms'><div><p>Security</p></div></a>
-            <a href='/terms'><div><p>Cookie Declaration</p></div></a>
+            <div><p>Terms & Conditions</p></div>
+          <div><p>Privacy</p></div>
+         <div><p>Security</p></div>
+        <div><p>Cookie Declaration</p></div>
          </div>
         </div>
         </div>

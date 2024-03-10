@@ -37,7 +37,7 @@ export default class About extends Component {
         <h1 className='h2_vision'>Our Mission</h1>
         <p className='h2_vision'>Professsionally manage freight forwarding and Logistics for Client</p>
 
-        <h5 className='h3_vision'>WHY CHOOSE</h5>
+        <h5 className='h3_visions'>WHY CHOOSE</h5>
         <h1 className='h3_vision'>Tramsco</h1>
         
 
@@ -64,7 +64,7 @@ export default class About extends Component {
         <br/>        
             
         <div className='meet_team'>
-            <h1>Meet The Team </h1>
+            <h1 className='h1_meet_team'>Meet The Team </h1>
             <div className='column'>
                 <div className='card'>
                     <img className='meet_image' src='./images/franklin.jpg' ></img>
@@ -128,7 +128,7 @@ export default class About extends Component {
             <p className='h3_text'>From freight to logistics,we are hapy to bring our
             expertise and experience<br/> to board with you.<br/>Feel free to reach out.We will be
             glad to have you as a partner.<br/><br/>
-            <Button as={Link} to={'/contact'}className='get_in_touch' > Get in touch  </Button>
+            <Button as={Link} to={'/contact'}className='get_in_touch' > Get In Touch  ❱  </Button>
             </p>
             </div>
             <br/>

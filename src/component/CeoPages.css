@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .overall{
   /* position: fixed; */
   overflow-x: hidden;
@@ -13,7 +17,9 @@
     height: auto;
   }
 
-  
+  .my_button{
+    background-color:darkgreen;
+  }
     
     .the_ceo{
     overflow-x: hidden;
@@ -233,7 +239,10 @@
     overflow-x: hidden;
   }
 
- 
+ .h1_service{
+position: relative;
+top:70px;
+ }
   
   .text{
     text-align: center;
@@ -268,7 +277,134 @@
     left: 120px;
     top: 66px;
   }
+
+   /*freight  */
+  .freight{
+    position: relative;
+    bottom: 600px;
+    width: 100%;
+    height:20vh;
+    background-color: whitesmoke;
+  }
+
   
+  .text-freight{
+    position: relative;
+    top:60px;
+    left: 80px;
+    color: rgba(0, 100, 0, 0.849);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .freight-icon{
+    position: relative;
+   left: 120px;
+   top:60px;
+   color: lightgreen;
+
+  }
+
+  .arrow_freight{
+    position: relative;
+    left: 129px;
+    top: 65px;
+    color: black;
+  }
+
+  .arrow_freight:hover{
+  color:red;
+  
+
+  }
+
+  /*haulage */
+  .haulage{
+    position: relative;
+    bottom: 520px;
+    width: 100%;
+    height:20vh;
+    background-color: whitesmoke;
+    border: 8px solid whitesmoke;
+    
+  }
+
+  .haulage-icon{
+    position: relative;
+    left: 120px;
+    top:60px;
+    color: lightgreen;
+  }
+
+  .text-haulage{
+    position: relative;
+    top:60px;
+    left: 95px;
+    color: rgba(0, 100, 0, 0.849);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .arrow_haulage{
+    position: relative;
+    left: 129px;
+    top:65px;
+    color: black;
+  }
+
+  .arrow_haulage:hover{
+    color: red;
+  }
+
+  /* custom */
+.custom_brokage{
+  position: relative;
+  bottom: 460px;
+  width: 100%;
+  height:20vh;
+  background-color: whitesmoke
+}
+
+.customs-icon{
+  position: relative;
+  left: 120px;
+  top:60px;
+  color: lightgreen;
+}
+
+ .text-customs{
+  position: relative;
+  top:60px;
+  left: 95px;
+  color: rgba(0, 100, 0, 0.849);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+ }
+
+ .arrow_customs{
+  position: relative;
+  left: 129px;
+  top:65px;
+  color: black;
+ }
+
+
+ .arrow_customs:hover{
+  color: red;
+ }
+
   .text-icon{
     position: relative;
     left: 100px;
@@ -373,5 +509,45 @@
     bottom:140px;
 }
 
+.star{
+  color:lightgreen;
+}
+
+.my_button{
+  background-color:darkgreen;
+}
+
+.get_in_touch{
+  background-color:white;
+  color: black;
+  border-radius: 40px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    width: 50%;
+}
+
+.about_text{
+  color:darkgreen
+}
+
+.h1_service{
+  color:darkgreen
+}
+
+.ceo_name{
+  color:darkgreen
+}
+
+.h1{
+  color:darkgreen
+}
+
+.business{
+  background-color: lightgreen;
+}
   }
   

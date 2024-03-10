@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import CeoPage from './CeoPage'
-import Effect from './Effect'
+import ImageSlider from './ImageSlider'
+import { SliderData } from './SliderData'
+
+
 
 
 
@@ -10,7 +13,7 @@ export default class Home extends Component {
     return (
     <>
 
-      <Effect/>
+       <ImageSlider slides={SliderData} />
         <CeoPage/>
 
     </>

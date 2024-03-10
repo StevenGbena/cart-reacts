@@ -47,7 +47,7 @@ export default class Contact extends Component {
             </div>
             <div className='row'>
             <div className='col-25'>
-             <label for='services'>Services Types</label>
+             <label  className='service_name'   for='services'>Services Types</label>
             </div>
             </div>
             <div className='col-75'>
@@ -68,7 +68,7 @@ export default class Contact extends Component {
             </div>
             <br/>
             <div className='row'>
-                <input className='button' type='submit' value='SEND'></input>
+                <input className='buttonss' type='submit' value='SEND'></input>
             </div>
         </form>
         

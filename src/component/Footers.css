@@ -122,19 +122,25 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
+
+
         .sb_footer-heading h1{
             font-size: 27px;
             line-height:38px;
         }
 
         .footer{
-            background-color: lightgreen;
+            background-color: whitesmoke;
         }
 
           
     .socialmedia{
         display: flex;
         flex-direction: row;
+    }
+
+    .sb_footer-below{
+        background-color: lightgreen;
     }
 }

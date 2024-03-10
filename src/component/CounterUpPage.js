@@ -3,14 +3,14 @@ import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger'
 import './Count.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faHandshake } from '@fortawesome/free-solid-svg-icons';
+import {  faHandshake, faStamp } from '@fortawesome/free-solid-svg-icons';
 import { faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
 const CounterUpPage = () =>  {
     const [counterOn , setCounterOn] =useState(false)
   return (
     <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
-            <h1>CREDENTIALS</h1>
+            <h1 className='h1_credentials'>Our Credentials</h1>
             <div className='animate'style={{
         width:'100%',
         // background:'white',
@@ -36,7 +36,13 @@ const CounterUpPage = () =>  {
         Experience <FontAwesomeIcon  className='shake'     icon={faSuitcase} /><br/>
         {counterOn &&   <CountUp start={0} end={20} duration={2} delay={0}/> }
        +
-        </h1>
+        </h1> 
+        &nbsp;&nbsp;
+        <h1 className='style4'>
+       Certififcates <FontAwesomeIcon  className='shake'     icon={faStamp} /><br/>
+        {counterOn &&   <CountUp start={0} end={5} duration={2} delay={0}/> }
+       +
+        </h1> 
     </div>
     </ScrollTrigger>
 

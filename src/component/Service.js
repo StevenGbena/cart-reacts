@@ -62,7 +62,7 @@ export default class Service extends Component {
             <p className='h3_texts'>From freight to logistics,we are hapy to bring our<br/>
             expertise and experience to board with you.Feel free to reach out.We will be
             glad to have you as a partner.<br/><br/>
-            <Button className='get_in_touch'> Get in touch  </Button>
+            <Button className='get_in_touch'> Get In Touch  ❱ </Button>
             </p>
             </div>
           <br/>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 @media screen and (width >= 900px){
     .animate{
@@ -21,8 +22,16 @@
 
 
     .style{
-        color:lightgreen;
+        color:darkgreen;
         width:100%;
+        font-family: "Roboto Serif", serif ExtraLight 200 Italic;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+ 
+        font-variation-settings:
+          "wdth" 100,
+          "GRAD" 0;
     
     }
     
@@ -56,12 +65,21 @@
 
 
 @media screen and (width<=480px) {
+
+    .h1_credentials{
+        position: relative;
+        bottom: 300px;
+        color:darkgreen;
+    }
+
+
     .animate{
-   
+        position: relative;
+        bottom: 230px;
         border-width: 0;
          width: 100%;
-         background-color: white;
-         height:35vmin;
+         background-color: whitesmoke;
+         height:45vmin;
          font-size :8px;
          color:black;
          overflow-x: hidden;
@@ -70,32 +88,91 @@
     }   
     
     .style{
-        color:lightgreen;
+  
         width:100%;
         overflow-x: hidden;
         overflow-y: hidden;
+        background-color: whitesmoke;
+        border: 8px solid whitesmoke;
         height:20vh;
+        color:darkgreen;
+        width:100%;
+        font-family: "Roboto Serif", serif ExtraLight 200 Italic;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+ 
+        font-variation-settings:
+          "wdth" 100,
+          "GRAD" 0;
     }
     
     .style2{
-        color:lightgreen;
+
         width:100%;
+        margin-top: 10px;
         overflow-x: hidden;
         overflow-y: hidden;
+        background-color: whitesmoke;
+        border: 8px solid whitesmoke;
         height:40vh;
+        color:darkgreen;
+        width:100%;
+        font-family: "Roboto Serif", serif ExtraLight 200 Italic;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+ 
+        font-variation-settings:
+          "wdth" 100,
+          "GRAD" 0;
     }
 
     .style3{
         position: relative;
-        color:lightgreen;
+
+        width:100%;
+        background-color: whitesmoke;
+        border: 8px solid whitesmoke;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height:20vh;
+        bottom:140px;
+        color:darkgreen;
+        width:100%;
+        font-family: "Roboto Serif", serif ExtraLight 200 Italic;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+ 
+        font-variation-settings:
+          "wdth" 100,
+          "GRAD" 0;
+    }
+
+    .style4{
+        position: relative;
+        background-color: whitesmoke;
+        border: 8px solid whitesmoke;
         width:100%;
         overflow-x: hidden;
         overflow-y: hidden;
         height:20vh;
         bottom:140px;
+        color:darkgreen;
+        width:100%;
+        font-family: "Roboto Serif", serif ExtraLight 200 Italic;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100,
+          "GRAD" 0;
     }
 
+
+
     .shake{
-        color: black;
+        color: lightgreen;
         }
 }

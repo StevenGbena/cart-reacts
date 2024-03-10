@@ -34,7 +34,7 @@ export default class NavbarComp extends Component {
         <Navbar.Collapse id="basic-navbar-nav" className='right-aligned'>
           <Nav >
  
-          <Nav.Link className='font' as={Link} to="/home">Home</Nav.Link>
+          <Nav.Link   class="text-light bg-dark"                 className='font' as={Link} to="/home">Home</Nav.Link>
        
             <NavDropdown  className='font' title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to='/service'>Freight Forwarding</NavDropdown.Item>

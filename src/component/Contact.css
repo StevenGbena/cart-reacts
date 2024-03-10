@@ -10,7 +10,7 @@
         top:100px;
         left: 40px;
     }
-
+/* 
     .button{
         position: relative;
         width:100px;
@@ -18,7 +18,7 @@
         border-radius: 50px;
         background-color: blue;
         left: 140px;
-    }
+    } */
 
     .container{
         position: relative;
@@ -102,6 +102,48 @@
         top:150px;
     }
 
+    .inputs{
+      width: 150%;
+      margin-left: 20px;
+      margin-bottom: 40px;
+      height: 5vh;
+      border-radius: 12px;
+    }
+
+    .email{
+      width: 150%;
+      margin-left: 20px;
+      height: 5vh;
+      border-radius: 12px;
+    }
+
+    .option{
+      width: 120%;
+      height: 5vh;
+      border-radius: 12px;
+    }
+
+    .service_name{
+      margin-left: 130px;
+      margin-bottom: 20px;
+    }
+
+    .serv{
+      width: 80%;
+      margin-left: 10px;
+      margin-bottom: 4px;
+      height: 5vh;
+      border-radius: 12px;
+    }
+
+    .text_area{
+      width: 200%;
+      height: 30vh;
+      margin-left: 20px;
+      border-radius: 20px;
+      margin-top: 24px;
+    }
+
     .h1_contact{
         /* position: relative; */
         top:590px;
@@ -119,20 +161,19 @@
         overflow-x: hidden;
     }
 
-    .col-25, .col-75, input[type=submit] {
+    /* .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
         overflow-x: hidden;
 
-      }
+      } */
 
-     .button{
-        position: relative;
-        width:100px;
-        height:30px;
-        border-radius: 50px;
-        background-color: pink;
-        left: 140px;
+     .buttonss{
+      width: 30%;
+      background-color: lightgreen;
+      border-radius: 50px;
+      margin-left: 90px;
+      margin-bottom: 40px;
      } 
 
      .conatiner{

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBox, faPersonMilitaryPointing, faTruck} from '@fortawesome/free-solid-svg-icons';
+import {faAngleRight, faBox, faPersonMilitaryPointing, faTruck} from '@fortawesome/free-solid-svg-icons';
 // import {faBox} from '@fortawesome/free-solid-svg-icons';
 import {faCircleArrowRight} from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
@@ -24,7 +24,7 @@ export default class CeoPage extends Component {
         and gas, construction, information technology, mining, just to name a few.</p>
        <img src='./images/feli.jpg' className='client' alt='pics'></img>
       <p className='move'>
-      <h2>SITSO GBNEA</h2> 
+      <h2 className='ceo_name'>PETER GASARE</h2> 
       FOUNDER & CEO
       </p>
         <div className='the_ceo'>
@@ -41,13 +41,13 @@ export default class CeoPage extends Component {
         <img src='./images/ship.jpg' className='about_images'></img>
 
         <div className='float_text'>
-          <h1>About us</h1>
+          <h1 className='about_text'>About us</h1>
           <p>
           Tramsco Shipping Agencie Limited is wholly-owned
 	        Ghanaian logistics comapny establisehed in <br/>January 196 with service
          	orientation in Domestic Freght Frowarding,International Freight<br/> Forwarding
 	          Vessel Agency,Base Operations in Haulage Pick& Delivery,Warehosuing,<br/>Container Freight Station<br/>
-            <Button as={Link} to={'/about'}className='' > Read More  </Button>
+            <Button as={Link} to={'/about'}className='my_button' > Read More  </Button>
           </p>
         </div>
       </div>
@@ -57,18 +57,27 @@ export default class CeoPage extends Component {
       <div className='freight'>
         <FontAwesomeIcon icon={faTruck} size='3x' className='freight-icon'/>
         <p className='text-freight'>Freight Forwarding</p>
-        <FontAwesomeIcon icon={faCircleArrowRight} size='3x' className='arrow_freight' />
+        <Link to={'/service'}>
+        <FontAwesomeIcon   icon={faCircleArrowRight} size='3x' className='arrow_freight' />
+        </Link>
+
       </div>
       <div className='haulage'>
         <FontAwesomeIcon icon={faBox} size='3x' className='haulage-icon'/>
         <p className='text-haulage'>Haulaging</p>
+        <Link to={'/service'}>
         <FontAwesomeIcon icon={faCircleArrowRight} size='3x' className='arrow_haulage' />
+        </Link>
+
       </div>
       <div className='custom_brokage'>
         
       <FontAwesomeIcon icon={faPersonMilitaryPointing} size='3x' className='customs-icon' /> 
-        <p className='text-customs'>Haulaging</p>
+        <p className='text-customs'>Custom Brokage</p>
+        <Link to={'/service'}>
         <FontAwesomeIcon icon={faCircleArrowRight} size='3x' className='arrow_customs' />
+        </Link>
+
       </div>
 
       <CounterUpPage/>
@@ -82,7 +91,7 @@ export default class CeoPage extends Component {
 
     </p>
     <br/>
-   <FontAwesomeIcon icon={faStar} className='star' size='2x'  /> &nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x'/>&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />
+   <FontAwesomeIcon icon={faStar} className='star' size='2x'  /> &nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x'/>&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x' />&nbsp;&nbsp;<FontAwesomeIcon icon={faStar} className='star' size='2x'  />
     </div>
     <br/>
     <br/>
@@ -91,7 +100,7 @@ export default class CeoPage extends Component {
     <div className='our_afflaition'>
       <h1 className='h1'>Our Affliations</h1><br/><br/><br/>
     <marquee width="100%" direction="left" height="280px">
-      <img className='logo' src='./images/gph.png'  alt='pics'></img>&nbsp;&nbsp;&nbsp; <img className='logo' src='./images/porting.png'></img> &nbsp;&nbsp;&nbsp;&nbsp;<img className='logo' src='./images/ceps.jpg'></img> <br/>
+      <img className='logo' src='./images/gph.png'  alt='pics'></img>&nbsp;&nbsp;&nbsp; <img className='logo' src='./images/porting.png'></img> &nbsp;&nbsp;&nbsp;&nbsp;<img className='logo' src='./images/ceps.jpg'></img><img className='logo' src='./images/giff.jpg'></img><br/>
    Ghana Shippers<br/> Authority    Ghana Ports& Harbour  Customs Execise & Preventice Service
 </marquee>
     </div>
@@ -104,7 +113,7 @@ export default class CeoPage extends Component {
         <p className='business_text'>From freight to logistics,we are hapy to bring our<br/>
             expertise and experience to board with you.Feel free to reach out.We will be
             glad to have you as a partner.<br/><br/>
-            <Button as={Link} to={'/contact'}className='get_in_touch' > Get in touch  </Button>
+            <Button as={Link} to={'/contact'}className='get_in_touch'   >  Get In Touch     ❱</Button>
             </p>
       </div>
     <Footer/>

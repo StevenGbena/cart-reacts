@@ -231,6 +231,19 @@
           width: 100%;
         }
         
+        .h1_vision{
+            color: darkgreen;
+        }
+
+        .h2_vision{
+            color: darkgreen;
+        }
         
-        
+        .h3_vision{
+            color: darkgreen;
+        }
+
+        .h1_meet_team{
+            color: darkgreen;
+        }
     }
